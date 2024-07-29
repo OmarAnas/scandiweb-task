@@ -1,0 +1,17 @@
+@import 'variables';
+
+/*
+*   Product Add
+*/
+i {
+    color: $required-color;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.add-main-container {
+    position: relative;
+    min-height: 50vh;
+}

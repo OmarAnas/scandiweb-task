@@ -1,0 +1,11 @@
+$border-color: #e04f4f;
+$required-color: #dc3545;
+$text-color: #000000;
+$background-color: #ffff;
+
+@mixin center-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

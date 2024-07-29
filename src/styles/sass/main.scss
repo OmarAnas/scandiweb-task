@@ -1,0 +1,36 @@
+@import 'variables';
+
+/*
+*   Main style (navbar + header + footer) + Page Not found
+*/
+.navbar-right {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid $border-color;
+}
+
+footer {
+    background-color: $background-color;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid $border-color;
+}
+
+.not-found-container {
+    position: relative;
+    min-height: 50vh;
+
+    >div {
+        text-align: center;
+        @include center-absolute;
+    }
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+}
